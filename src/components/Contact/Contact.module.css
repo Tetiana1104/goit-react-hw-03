@@ -1,0 +1,58 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: 500px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contactContent {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.icons i {
+  margin-bottom: 10px;
+}
+
+.nameAndNumber {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.number {
+  font-family: "Courier New", Courier, monospace;
+  color: #555;
+}
+
+.deleteButton {
+  padding: 6px 10px;
+  font-size: 12px;
+  border: 1px solid #e74c3c;
+  background-color: #e74c3c;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #c0392b;
+}
